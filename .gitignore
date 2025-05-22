@@ -1,0 +1,32 @@
+# Ignorar o ambiente virtual
+venv_trilha/
+env/
+
+# Ignorar caches do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos de log
+logs/
+*.log
+
+# Ignorar arquivos de configuração locais e credenciais sensíveis
+config.yaml
+*.env
+
+# Ignorar todos os arquivos dentro de data/
+data/*
+
+# Permitir a estrutura das pastas (mas não os arquivos dentro delas)
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/output/.gitkeep
+
+# Ignorar todos os arquivos executáveis .exe, .spec + pasta dist, build (pyinstaller)
+dist/
+build/
+*.exe
+*.spec
