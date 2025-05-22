@@ -38,13 +38,13 @@ def pagina_projetos():
         "🚀 Envio de Informe de Rendimentos": {
             "descricao": """
 Disparo individual de informe de rendimentos por e-mail para cerca de 1.000 colaboradores, com custo zero para a empresa.  
-Este projeto garantiu agilidade na comunicação fiscal e redução de custos com impressão e envio físico, além de melhorar a experiência dos colaboradores.
+Este projeto garantiu agilidade na comunicação fiscal e redução de custos com impressão e envio físico, além de melhorar a experiência dos colaboradores e retirar a carga da demanda para o departamento pessoal.
             """,
             "imagem": "assets/informe_rendimentos.jpg"
         },
         "📧 Projeto Vispera (TI)": {
             "descricao": """
-Criação do projeto de envio de e-mails personalizados a partir de dados da plataforma Vispera.  
+Criador do projeto de envio de e-mails personalizados a partir de dados da plataforma Vispera.  
 Implementado com sucesso para clientes como Raymundo da Fonte, Hersheys e Sococo, aumentando a eficiência na comunicação e personalização do atendimento.
             """,
             "imagem": "assets/projeto_vispera.jpg"
@@ -71,7 +71,7 @@ A segunda etapa do roadmap, voltada para VTs, foi interrompida devido à reestru
         "⚙️ Programa de Margem": {
             "descricao": """
 Desenvolvimento de programa automatizado para cálculo de margem da empresa (RT e CX), eliminando a necessidade de integração manual entre sistemas.  
-O programa trouxe maior rapidez e precisão nos cálculos financeiros, suportando decisões estratégicas e facilitando o acompanhamento de resultados.  
+O programa trouxe maior rapidez e precisão na visualização das informações, suportando decisões estratégicas e facilitando o acompanhamento de resultados.  
 Tempo de desenvolvimento: cerca de 60 horas.
             """,
             "imagem": "assets/programa_margem.jpg"
@@ -79,13 +79,13 @@ Tempo de desenvolvimento: cerca de 60 horas.
         "📈 Pesquisa x Atendimento": {
             "descricao": """
 Desenvolvimento de sistema para equilibrar a carga de trabalho dos promotores das equipes compartilhadas (RT e CX).  
-Essa automação permitiu distribuir as visitas de forma mais eficiente, evitando sobrecarga e garantindo melhor cobertura dos pontos de venda.
+Essa automação permitiu distribuir as visitas de forma mais eficiente, evitando sobrecarga e garantindo melhor cobertura dos PDVs.
             """,
             "imagem": "assets/pesquisa_atendimento.jpg"
         },
         "🤖 Automações Python Office": {
             "descricao": """
-Implementação de diversas automações internas, incluindo cálculo de offs, layoutização de roteiros, calculadora de contratos e integração com Treasy.  
+Implementação de diversas automações internas, incluindo relatório de offs, layoutização de roteiros, calculadora de contratos e integração com Treasy.  
 Essas soluções aumentaram a produtividade das equipes, reduziram erros manuais e facilitaram a gestão operacional.
             """,
             "imagem": "assets/automacoes_python.jpg"
