@@ -13,7 +13,7 @@ def pagina_sinopse():
     **Sinopse Profissional**
 
     Iniciei na RT Intelligence em 22/09/2023.  
-    Tenho 32 anos, sou graduado em Administração (UFPE) e pós-graduado em Engenharia e Ciência de Dados (CESAR School).  
+    Tenho 32 anos, sou graduado em Administração (UFPE) e pós-graduado em Engenharia e Análise de Dados (CESAR School).  
 
     Atuo com dados, automação e soluções que aumentam a eficiência operacional.
     """)
@@ -44,7 +44,7 @@ Este projeto garantiu agilidade na comunicação fiscal e redução de custos co
         },
         "📧 Projeto Vispera (TI)": {
             "descricao": """
-Criador do projeto de envio de e-mails personalizados a partir de dados da plataforma Vispera.  
+Desenvolvedor do algoritmo-código base para projeto de envio de e-mails personalizados a partir de dados da plataforma Vispera.  
 Implementado com sucesso para clientes como Raymundo da Fonte, Hersheys e Sococo, aumentando a eficiência na comunicação e personalização do atendimento.
             """,
             "imagem": "assets/projeto_vispera.jpg"
@@ -52,7 +52,7 @@ Implementado com sucesso para clientes como Raymundo da Fonte, Hersheys e Sococo
         "📊 Centralização de Dados (Planejamento/Roteiro)": {
             "descricao": """
 - Normalização de nomenclaturas, endereços e geolocalizações de todos os PDVs do compartilhado.  
-- Limpeza e estruturação completa dos contratos, com replicação para o sistema HERO.  
+- Limpeza e estruturação completa da base de contratos, servindo de modelo para replicação no sistema HERO.  
 
 Este projeto resultou em consistência e confiabilidade nas rotas planejadas, eliminou lojas duplicadas e melhorou a integração de dados entre as equipes.  
 Duração: aproximadamente 3 meses, com impacto direto na assertividade operacional.
