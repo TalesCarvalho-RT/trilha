@@ -108,11 +108,37 @@ Esta estruturação fortalece a base para análises precisas e tomada de decisã
     st.markdown("---")
 
 
+# Página de evolução
+def pagina_evolucao():
+    st.title("Minha Evolução")
+    st.write("Confira minha evolução técnica ao longo do tempo.")
+
+    st.header("Onde Comecei")
+    st.write("""
+    - **Python**: No início, meu foco era manipulação simples de dados, criando scripts pontuais para resolver problemas específicos.
+    - **Dash**: Aprendi a desenvolver web apps para visualização de dados de maneira rápida e prática, sem foco em grandes sistemas.
+    - **Foco Inicial**: O objetivo era sempre resolver problemas específicos e criar entregas visuais rápidas, com a mínima integração entre as tecnologias.
+    """)
+
+    st.markdown("---")
+    st.header("Onde Estou Hoje")
+    st.write("""
+    Após a evolução, meus conhecimentos se expandiram significativamente:
+    
+    - **Python Avançado**: Agora, sou capaz de modularizar o código, criando pacotes e funções reutilizáveis. Além disso, adotei boas práticas, como documentação, padronização e observabilidade.
+    - **SQL**: Uso SQL no meu dia a dia, aplicando consultas, CRUD e modelagem de dados, garantindo que as informações sejam extraídas e manipuladas de forma eficiente.
+    - **Git e GitHub**: Adotei o versionamento de código usando Git e GitHub, o que facilita o trabalho colaborativo e a manutenção do código.
+    - **Cloud (GCP)**: Aprendi e apliquei conhecimentos gerais sobre **Google Cloud Platform (GCP)**, com foco em APIs e integrações na nuvem.
+    - **Linux**: Adquiri noções de terminal Linux, automatizando processos e trabalhando com servidores, além de gerenciar cronjobs.
+    - **Integrações**: Desenvolvi habilidades em protocolos de comunicação HTTP, JSON, REST e estou familiarizado com o consumo de APIs.
+    """)
+
 
 
 paginas = {
     "Sinopse Geral": pagina_sinopse,
     "Projetos": pagina_projetos,
+    "Evolução Técnica": pagina_evolucao,
 }
 
 pagina_escolhida = st.sidebar.radio("Navegar para:", list(paginas.keys()))
